@@ -1,0 +1,436 @@
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/scala-2.13/api...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.4.4:compile for Scala 2.13.4[0m
+[0m[[0m[0mdebug[0m] [0m[0mCalling Scaladoc with arguments:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-d[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/scala-2.13/api[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-groups[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-sourcepath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-doc-title[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Scalactic 3.2.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-doc-source-url[0m
+[0m[[0m[0mdebug[0m] [0m[0m	https://github.com/scalatest/releases-source/3.2.7/scalactic€{FILE_PATH}.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/opt/jdk/jdk8/jre/lib/resources.jar:/opt/jdk/jdk8/jre/lib/rt.jar:/opt/jdk/jdk8/jre/lib/sunrsasign.jar:/opt/jdk/jdk8/jre/lib/jsse.jar:/opt/jdk/jdk8/jre/lib/jce.jar:/opt/jdk/jdk8/jre/lib/charsets.jar:/opt/jdk/jdk8/jre/lib/jfr.jar:/opt/jdk/jdk8/jre/lib/jvmci-services.jar:/opt/jdk/jdk8/jre/classes:/opt/jdk/jdk8/jre/lib/boot/graaljs-scriptengine.jar:/opt/jdk/jdk8/jre/lib/boot/graal-sdk.jar:/opt/jdk/jdk8/jre/lib/boot/graal-sdk.src.zip:/home/cheeseng/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic-macro/target/scala-2.13/classes:/home/cheeseng/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.4/scala-compiler-2.13.4.jar:/home/cheeseng/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.4/scala-reflect-2.13.4.jar:/home/cheeseng/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.16.0/jline-3.16.0.jar:/home/cheeseng/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Catcher.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Explicitly.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Accumulation.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/DefaultEquality.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Differ.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/SeqEqualityConstraints.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/TrySugar.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Snapshots.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Equivalence.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/NormalizingEquivalence.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Bool.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/AbstractStringUniformity.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/TypeCheckedTripleEquals.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Prettifier.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/PrettyPair.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Requirements.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Tolerance.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Normalization.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/LowPriorityTypeCheckedConstraint.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/StringNormalizations.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/SetEqualityConstraints.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/PrettyMethods.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Equality.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/FailureMessages.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/UnquotedString.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/OptionSugar.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Uniformity.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/TripleEquals.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/TolerantNumerics.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/EitherSugar.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/ArrayHelper.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/CanEqual.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/TimesOnInt.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/NormMethods.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/NumericEqualityConstraints.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/TraversableEqualityConstraints.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/FutureSugar.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/ComposedNormalizingEquality.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/NormalizingEquality.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/ComposedNormalizingEquivalence.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/package.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/TripleEqualsSupport.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/ScalacticVersions.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/MapEqualityConstraints.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/exceptions/ValidationFailedException.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/exceptions/NullArgumentException.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/source/TypeInfo.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/source/ObjectMeta.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/End.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptyMap.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptySet.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptyArray.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptyList.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptyVector.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptyString.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/ColCompatHelper.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/NameUtil.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/Or.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/MacroOwnerRepair.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/BooleanMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/Resources.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/MacroContext.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/Validation.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/Every.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/source/TypeInfoMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/source/Position.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/source/PositionMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NegFiniteFloat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NegFloat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/FiniteFloatMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZLong.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NegZLong.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NegFiniteDoubleMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NegZDoubleMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NegZFiniteDouble.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NegLong.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/RegexString.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/CompileTimeAssertions.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NonZeroFloatMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosLongMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZFiniteFloatMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosFiniteDoubleMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosFiniteFloatMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosDouble.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NegInt.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/FiniteDouble.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NonZeroDoubleMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NonZeroFiniteFloatMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NegZFloat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosFloatMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NonZeroFloat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NonZeroFiniteFloat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZFiniteFloat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/FiniteFloat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosInt.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZFiniteDouble.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NonZeroLong.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NonZeroIntMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NegZInt.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NegFiniteFloatMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZIntMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosFloat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NonZeroLongMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosFiniteDouble.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NegZDouble.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosIntMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/FiniteDoubleMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NonZeroFiniteDoubleMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NegFiniteDouble.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosLong.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NegFloatMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZFiniteDoubleMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZInt.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NegDoubleMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NegZFiniteDoubleMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NegZFiniteFloatMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZLongMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NonZeroFiniteDouble.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NegZFiniteFloat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NegZIntMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PercentageIntMacros.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosFiniteFloat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NegIntMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/RegexStringMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PercentageInt.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NumericStringMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NonZeroInt.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZDoubleMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NegZLongMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NonZeroDouble.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NumericChar.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZFloatMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NumericCharMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NumericString.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZFloat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NegLongMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NegZFloatMacro.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/NegDouble.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZDouble.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosDoubleMacro.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m42 deprecations[0m
+[0m[[0m[33mwarn[0m] [0m[0m20 deprecations (since 2.13.0)[0m
+[0m[[0m[33mwarn[0m] [0m[0m3 deprecations (since 2.13.3)[0m
+[0m[[0m[33mwarn[0m] [0m[0m65 deprecations in total; re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0m5 feature warnings; re-run with -feature for details[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/CompileTimeAssertions.scala:55:169: Variable value undefined in comment for trait CompileTimeAssertions in trait CompileTimeAssertions[0m
+[0m[[0m[33mwarn[0m] [0m[0m *   <span class="stReserved">override</span> <span class="stReserved">def</span> toString: <span class="stType">String</span> = s<span class="stQuotedString">"OddInt($value)"</span>[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                                                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/CompileTimeAssertions.scala:91:169: Variable value undefined in comment for trait CompileTimeAssertions in trait CompileTimeAssertions[0m
+[0m[[0m[33mwarn[0m] [0m[0m *   <span class="stReserved">override</span> <span class="stReserved">def</span> toString: <span class="stType">String</span> = s<span class="stQuotedString">"OddInt($value)"</span>[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                                                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/CompileTimeAssertions.scala:114:159: Variable value undefined in comment for trait CompileTimeAssertions in trait CompileTimeAssertions[0m
+[0m[[0m[33mwarn[0m] [0m[0m *       <span class="stReserved">throw</span> <span class="stReserved">new</span> <span class="stType">AssertionError</span>(s<span class="stQuotedString">"$value was not a valid OddInt"</span>)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                                                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/AbstractStringUniformity.scala:60:53: Variable anon undefined in comment for trait AbstractStringUniformity in trait AbstractStringUniformity[0m
+[0m[[0m[33mwarn[0m] [0m[0m * capitalized: org.scalactic.Uniformity[String] = $anon$1@65601e00[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/AbstractStringUniformity.scala:60:58: Variable 1 undefined in comment for trait AbstractStringUniformity in trait AbstractStringUniformity[0m
+[0m[[0m[33mwarn[0m] [0m[0m * capitalized: org.scalactic.Uniformity[String] = $anon$1@65601e00[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Equality.scala:76:48: Variable anon undefined in comment for trait Equality in trait Equality[0m
+[0m[[0m[33mwarn[0m] [0m[0m * personEq: org.scalactic.Equality[Person] = $anon$1@2b29f6e7[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Equality.scala:76:53: Variable 1 undefined in comment for trait Equality in trait Equality[0m
+[0m[[0m[33mwarn[0m] [0m[0m * personEq: org.scalactic.Equality[Person] = $anon$1@2b29f6e7[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Equivalence.scala:93:51: Variable anon undefined in comment for trait Equivalence in trait Equivalence[0m
+[0m[[0m[33mwarn[0m] [0m[0m * personEq: org.scalactic.Equivalence[Person] = $anon$1@7892bd8[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Equivalence.scala:93:56: Variable 1 undefined in comment for trait Equivalence in trait Equivalence[0m
+[0m[[0m[33mwarn[0m] [0m[0m * personEq: org.scalactic.Equivalence[Person] = $anon$1@7892bd8[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/FutureSugar.scala:66:73: Variable DefaultPromise undefined in comment for trait FutureSugar in trait FutureSugar[0m
+[0m[[0m[33mwarn[0m] [0m[0m * fut100: scala.concurrent.Future[Int] = scala.concurrent.impl.Promise$DefaultPromise@67f9c9c6[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/FutureSugar.scala:72:75: Variable DefaultPromise undefined in comment for trait FutureSugar in trait FutureSugar[0m
+[0m[[0m[33mwarn[0m] [0m[0m * round100: scala.concurrent.Future[Int] = scala.concurrent.impl.Promise$DefaultPromise@1ac2f0d1[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/FutureSugar.scala:87:72: Variable DefaultPromise undefined in comment for trait FutureSugar in trait FutureSugar[0m
+[0m[[0m[33mwarn[0m] [0m[0m * fut42: scala.concurrent.Future[Int] = scala.concurrent.impl.Promise$DefaultPromise@19c6e4d1[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/FutureSugar.scala:93:74: Variable DefaultPromise undefined in comment for trait FutureSugar in trait FutureSugar[0m
+[0m[[0m[33mwarn[0m] [0m[0m * round42: scala.concurrent.Future[Int] = scala.concurrent.impl.Promise$DefaultPromise@b5175d[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/FutureSugar.scala:105:72: Variable DefaultPromise undefined in comment for trait FutureSugar in trait FutureSugar[0m
+[0m[[0m[33mwarn[0m] [0m[0m * futEx: scala.concurrent.Future[Int] = scala.concurrent.impl.Promise$DefaultPromise@3ba0299c[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/FutureSugar.scala:111:74: Variable DefaultPromise undefined in comment for trait FutureSugar in trait FutureSugar[0m
+[0m[[0m[33mwarn[0m] [0m[0m * roundEx: scala.concurrent.Future[Int] = scala.concurrent.impl.Promise$DefaultPromise@22bf1acf[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/FutureSugar.scala:136:75: Variable DefaultPromise undefined in comment for trait FutureSugar in trait FutureSugar[0m
+[0m[[0m[33mwarn[0m] [0m[0m * futShort: scala.concurrent.Future[Int] = scala.concurrent.impl.Promise$DefaultPromise@30bb943e[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/NormMethods.scala:34:91: Variable 1 undefined in comment for trait NormMethods in trait NormMethods[0m
+[0m[[0m[33mwarn[0m] [0m[0m * stringNormalization: org.scalactic.Uniformity[String] = org.scalactic.Uniformity$$anon$1@19ba67ec[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/Or.scala:127:208: Variable input undefined in comment for class Or in class Or[0m
+[0m[[0m[33mwarn[0m] [0m[0m *   <span class="stReserved">if</span> (!trimmed.isEmpty) <span class="stType">Right</span>(trimmed) <span class="stReserved">else</span> <span class="stType">Left</span>(s<span class="stQuotedString">""""${input}" is not a valid name"""</span>)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                                                                                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/Or.scala:139:232: Variable age undefined in comment for class Or in class Or[0m
+[0m[[0m[33mwarn[0m] [0m[0m *     <span class="stReserved">if</span> (age &gt;= <span class="stLiteral">0</span>) <span class="stType">Right</span>(age) <span class="stReserved">else</span> <span class="stType">Left</span>(s<span class="stQuotedString">""""${age}" is not a valid age"""</span>)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                                                                                                                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/Or.scala:142:172: Variable input undefined in comment for class Or in class Or[0m
+[0m[[0m[33mwarn[0m] [0m[0m *     <span class="stReserved">case</span> _: <span class="stType">NumberFormatException</span> =&gt; <span class="stType">Left</span>(s<span class="stQuotedString">""""${input}" is not a valid integer"""</span>)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                                                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/Or.scala:212:206: Variable input undefined in comment for class Or in class Or[0m
+[0m[[0m[33mwarn[0m] [0m[0m *   <span class="stReserved">if</span> (!trimmed.isEmpty) <span class="stType">Good</span>(trimmed) <span class="stReserved">else</span> <span class="stType">Bad</span>(s<span class="stQuotedString">""""${input}" is not a valid name"""</span>)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                                                                                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/Or.scala:234:230: Variable age undefined in comment for class Or in class Or[0m
+[0m[[0m[33mwarn[0m] [0m[0m *     <span class="stReserved">if</span> (age &gt;= <span class="stLiteral">0</span>) <span class="stType">Good</span>(age) <span class="stReserved">else</span> <span class="stType">Bad</span>(s<span class="stQuotedString">""""${age}" is not a valid age"""</span>)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                                                                                                                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/Or.scala:237:171: Variable input undefined in comment for class Or in class Or[0m
+[0m[[0m[33mwarn[0m] [0m[0m *     <span class="stReserved">case</span> _: <span class="stType">NumberFormatException</span> =&gt; <span class="stType">Bad</span>(s<span class="stQuotedString">""""${input}" is not a valid integer"""</span>)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                                                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/Or.scala:298:238: Variable input undefined in comment for class Or in class Or[0m
+[0m[[0m[33mwarn[0m] [0m[0m *   <span class="stReserved">if</span> (!trimmed.isEmpty) <span class="stType">Good</span>(trimmed) <span class="stReserved">else</span> <span class="stType">Bad</span>(<span class="stType">One</span>(s<span class="stQuotedString">""""${input}" is not a valid name"""</span>))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                                                                                                                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/Or.scala:312:262: Variable age undefined in comment for class Or in class Or[0m
+[0m[[0m[33mwarn[0m] [0m[0m *     <span class="stReserved">if</span> (age &gt;= <span class="stLiteral">0</span>) <span class="stType">Good</span>(age) <span class="stReserved">else</span> <span class="stType">Bad</span>(<span class="stType">One</span>(s<span class="stQuotedString">""""${age}" is not a valid age"""</span>))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                                                                                                                                                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/Or.scala:315:203: Variable input undefined in comment for class Or in class Or[0m
+[0m[[0m[33mwarn[0m] [0m[0m *     <span class="stReserved">case</span> _: <span class="stType">NumberFormatException</span> =&gt; <span class="stType">Bad</span>(<span class="stType">One</span>(s<span class="stQuotedString">""""${input}" is not a valid integer"""</span>))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                                                                                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Requirements.scala:420:5: Variable scala undefined in comment for object Requirements in object Requirements[0m
+[0m[[0m[33mwarn[0m] [0m[0m * $scala -classpath scalatest.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Requirements.scala:433:39: Variable RequirementsHelper undefined in comment for object Requirements in object Requirements[0m
+[0m[[0m[33mwarn[0m] [0m[0m *      at org.scalactic.Requirements$RequirementsHelper.macroRequire(Requirements.scala:56)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Requirements.scala:438:13: Variable print undefined in comment for object Requirements in object Requirements[0m
+[0m[[0m[33mwarn[0m] [0m[0m *      at $print(&lt;console&gt;)[0m
+[0m[[0m[33mwarn[0m] [0m[0m            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Requirements.scala:69:35: Variable RequirementsHelper undefined in comment for trait Requirements in trait Requirements[0m
+[0m[[0m[33mwarn[0m] [0m[0m * 	at org.scalactic.Requirements$RequirementsHelper.macroRequire(Requirements.scala:56)[0m
+[0m[[0m[33mwarn[0m] [0m[0m   	                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Requirements.scala:74:35: Variable RequirementsHelper undefined in comment for trait Requirements in trait Requirements[0m
+[0m[[0m[33mwarn[0m] [0m[0m * 	at org.scalactic.Requirements$RequirementsHelper.macroRequire(Requirements.scala:56)[0m
+[0m[[0m[33mwarn[0m] [0m[0m   	                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Requirements.scala:89:35: Variable RequirementsHelper undefined in comment for trait Requirements in trait Requirements[0m
+[0m[[0m[33mwarn[0m] [0m[0m * 	at org.scalactic.Requirements$RequirementsHelper.macroRequireState(Requirements.scala:71)[0m
+[0m[[0m[33mwarn[0m] [0m[0m   	                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Requirements.scala:114:35: Variable RequirementsHelper undefined in comment for trait Requirements in trait Requirements[0m
+[0m[[0m[33mwarn[0m] [0m[0m * 	at org.scalactic.Requirements$RequirementsHelper.macroRequireNonNull(Requirements.scala:101)[0m
+[0m[[0m[33mwarn[0m] [0m[0m   	                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Snapshots.scala:206:5: Variable scala undefined in comment for object Snapshots in object Snapshots[0m
+[0m[[0m[33mwarn[0m] [0m[0m * $scala -classpath scalatest.jar[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/TolerantNumerics.scala:103:90: Variable 1 undefined in comment for trait TolerantNumerics in trait TolerantNumerics[0m
+[0m[[0m[33mwarn[0m] [0m[0m * doubleEquality: org.scalactic.Equality[Double] = org.scalactic.TolerantNumerics$$anon$1@16c2bd13[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/TripleEqualsSupport.scala:247:3: Could not find any member to link for "NullPointerException".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/TripleEqualsSupport.scala:233:3: Could not find any member to link for "NullPointerException".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/TimesOnInt.scala:70:3: Could not find any member to link for "IllegalArgumentException".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Requirements.scala:183:3: Could not find any member to link for "NullPointerException".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Requirements.scala:202:3: Could not find any member to link for "NullArgumentException".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Requirements.scala:166:3: Could not find any member to link for "IllegalStateException".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Requirements.scala:149:3: Could not find any member to link for "NullPointerException".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/Requirements.scala:131:3: Could not find any member to link for "IllegalArgumentException".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptyString.scala:1479:3: Could not find any member to link for "IndexOutOfBoundsException".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptyString.scala:1465:3: Only one '@tparam' tag for symbol R is allowed[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptyVector.scala:1533:3: Tag '@tparm' is not recognised[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptyVector.scala:1520:3: Could not find any member to link for "IndexOutOfBoundsException".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptyVector.scala:1506:3: Only one '@tparam' tag for symbol R is allowed[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptyVector.scala:453:3: Tag '@tparm' is not recognised[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptyVector.scala:245:3: Only one '@param' tag for symbol start is allowed[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptyList.scala:1642:3: Tag '@tparm' is not recognised[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptyList.scala:1629:3: Could not find any member to link for "IndexOutOfBoundsException".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptyList.scala:1615:3: Only one '@tparam' tag for symbol R is allowed[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptyList.scala:547:3: Tag '@tparm' is not recognised[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptyList.scala:339:3: Only one '@param' tag for symbol start is allowed[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptyArray.scala:1432:3: Tag '@tparm' is not recognised[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptyArray.scala:1419:3: Could not find any member to link for "IndexOutOfBoundsException".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptyArray.scala:1405:3: Only one '@tparam' tag for symbol R is allowed[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptyArray.scala:413:3: Tag '@tparm' is not recognised[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptyArray.scala:205:3: Only one '@param' tag for symbol start is allowed[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptySet.scala:994:3: Tag '@tparm' is not recognised[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptySet.scala:338:3: Tag '@tparm' is not recognised[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptySet.scala:234:3: Only one '@param' tag for symbol start is allowed[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptyMap.scala:853:3: Only one '@tparam' tag for symbol R is allowed[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/src/main/scala/org/scalactic/anyvals/NonEmptyMap.scala:228:3: Only one '@param' tag for symbol start is allowed[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZLong.scala:799:3: Could not find any member to link for "AssertionError".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZLong.scala:714:3: Could not find any member to link for "AssertionError".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZLong.scala:679:3: Only one '@param' tag for symbol end is allowed[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZLong.scala:702:3: Could not find any member to link for "scala.collection.immutable.NumericRange.Inclusive[Long".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZLong.scala:692:3: Could not find any member to link for "scala.collection.immutable.NumericRange.Inclusive[Long".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZLong.scala:669:3: Could not find any member to link for "scala.collection.immutable.NumericRange.Exclusive[Long".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZInt.scala:763:3: Could not find any member to link for "AssertionError".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZInt.scala:672:3: Could not find any member to link for "AssertionError".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZInt.scala:651:3: Could not find any member to link for "scala.collection.immutable.Range".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZInt.scala:641:3: Could not find any member to link for "scala.collection.immutable.Range".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZInt.scala:630:3: Could not find any member to link for "scala.collection.immutable.Range".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZInt.scala:620:3: Could not find any member to link for "scala.collection.immutable.Range".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZFloat.scala:494:3: Could not find any member to link for "AssertionError".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZFloat.scala:367:3: Could not find any member to link for "AssertionError".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZFiniteFloat.scala:472:3: Could not find any member to link for "AssertionError".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZFiniteFloat.scala:367:3: Could not find any member to link for "AssertionError".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZFiniteDouble.scala:470:3: Could not find any member to link for "AssertionError".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZFiniteDouble.scala:365:3: Could not find any member to link for "AssertionError".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZDouble.scala:492:3: Could not find any member to link for "AssertionError".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosZDouble.scala:365:3: Could not find any member to link for "AssertionError".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosLong.scala:799:3: Could not find any member to link for "AssertionError".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosLong.scala:714:3: Could not find any member to link for "AssertionError".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosLong.scala:679:3: Only one '@param' tag for symbol end is allowed[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosLong.scala:702:3: Could not find any member to link for "scala.collection.immutable.NumericRange.Inclusive[Long".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosLong.scala:692:3: Could not find any member to link for "scala.collection.immutable.NumericRange.Inclusive[Long".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cheeseng/git/scaladoc-work/scalatest-for-scaladoc/jvm/scalactic/target/docsrc/jvm/scalactic-macro/src/main/scala/org/scalactic/anyvals/PosLong.scala:669:3: Could not find any member to link for "scala.collection.immutable.NumericRange.Exclusive[Long".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m96 warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
